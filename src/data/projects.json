@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "name": "Dragon Pizza - Point of Sale System",
+        "lang": [
+            "C#",
+            "SQL"
+        ],
+        "links": {
+            "github": [
+                "https://github.com/Randula98/POS-Dragon-Pizza.git"
+            ]
+        },
+        "imgurl": ""
+    },
+    {
+        "id": 2,
+        "name": "Payrow - Online Job Portal",
+        "lang": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL"
+        ],
+        "links": {
+            "github": [
+                "https://github.com/Randula98/IWT_Project_POJP.git"
+            ]
+        },
+        "imgurl": ""
+    },
+    {
+        "id": 3,
+        "name": "ezCare - Online Vehicle & Fuel Management System",
+        "lang": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "JSP",
+            "MySQL"
+        ],
+        "links": {
+            "github": [
+                "https://github.com/Randula98/OnlineVehicleAndFuelManagement-Y2S1-OOP.git"
+            ]
+        },
+        "imgurl": ""
+    },
+    {
+        "id": 4,
+        "name": "Synthetic Dealz - Online Electronic Applicants Marketing Management System",
+        "lang": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB"
+        ],
+        "links": {
+            "github": [
+                "https://github.com/Randula98/ITP-Online-Electronic-Applicant-Management-System.git"
+            ]
+        },
+        "imgurl": ""
+    },
+    {
+        "id": 5,
+        "name": "Foodi - Online Food Ordering System (Android Application)",
+        "lang": [
+            "Java",
+            "Firebase"
+        ],
+        "links": {
+            "github": [
+                "https://github.com/Randula98/Y2S2-Foodi-MAD-Project.git"
+            ]
+        },
+        "imgurl": ""
+    }
+    
+]
