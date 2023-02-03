@@ -1,0 +1,19 @@
+.left{
+    animation: 2s slide-right;
+    animation-delay: 2s;
+}
+
+.right{
+    animation: 2s slide-right;
+    animation-delay: 2s;
+}
+
+@keyframes left {
+  from {
+    margin-left: -500px;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
