@@ -1,6 +1,15 @@
-import { Navbar, Footer } from "../../components";
-import { Hero } from "../../modules";
 import { createContext, useState, useEffect } from "react";
+
+import { Navbar, Footer } from "../../components";
+import {
+    Hero,
+    About,
+    Contact,
+    Tools,
+    Projects
+} from "../../modules";
+
+
 
 import "./home.css";
 
@@ -41,8 +50,10 @@ function Home() {
             <div className="Home" id={theme}>
                 <Navbar toggle={toggleTheme} mode={theme} />
                 <Hero />
-                <Hero />
-                <Hero />
+                <About />
+                <Projects />
+                <Tools />
+                <Contact />
                 <Footer mode={theme} />
             </div>
         </ThemeContext.Provider>
