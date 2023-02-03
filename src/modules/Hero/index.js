@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react'
 import "./Hero.css"
 
-const Hero = () => {
+export default function Hero() {
     return (
         <div id="hero">
             <div className="p-8 min-h-screen text-center border-b border-b-black/10 dark:border-b-white/10 pt-24 sm:p-16 sm:pt-24 flex flex-col gap-8 justify-between">
@@ -17,15 +18,15 @@ const Hero = () => {
                                 from-indigo-500 via-blue-500 to-purple-500
                                 animate-text
                                 ">
-                        <div className = "textset">
-                            <span className = "left">Self-Innovated</span><br />
-                            <span className = "">&</span><br />
-                            <span className = "right">Motivated</span><br />
-                            <span className = "left">Full-Stack</span><br />
-                            <span className = "right">Developer</span><br />
+                        <div className="textset">
+                            <span className="left">Self-Innovated</span><br />
+                            <span className="">&</span><br />
+                            <span className="right">Motivated</span><br />
+                            <span className="left">Full-Stack</span><br />
+                            <span className="right">Developer</span><br />
                         </div>
                     </div>
- 
+
                     <span className="text-lg sm:text-2xl leading-5 sm:ml-1 mt-5 animate-pulse">
                         Click Here To Get My <a href="" target="_blank" className="font-semibold 
                                 bg-gradient-to-r bg-clip-text  text-transparent 
@@ -38,5 +39,3 @@ const Hero = () => {
         </div>
     )
 }
-
-export default Hero;

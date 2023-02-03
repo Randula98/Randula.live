@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
-export default function About() {
+export default function Contact() {
   return (
     <div id="contact">
 

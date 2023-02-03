@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react'
 
-const About = () => {
+export default function About() {
     return (
         <div id="about">
 
@@ -16,5 +17,3 @@ const About = () => {
         </div>
     )
 }
-
-export default About;
