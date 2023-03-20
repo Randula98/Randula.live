@@ -31,15 +31,13 @@ export default function Projects() {
           <Swiper
             // install Swiper modules
             modules={[Pagination, Scrollbar]}
-            spaceBetween={50}
+            spaceBetween={40}
             pagination={{ clickable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
             effect="fade"
             breakpoints={{
               // when window width is >= 640px
-              4801: {
-                width: 640,
+              480: {
+                width: 480,
                 slidesPerView: 1,
               },
               // when window width is >= 768px
