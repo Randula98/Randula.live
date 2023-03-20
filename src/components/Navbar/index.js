@@ -10,8 +10,8 @@ const Navbar = (props) => {
                 <div className="flex gap-10">
                     <Link className="hover:text-blue-900 cursor-pointer transition-all duration-300" activeClass="text-blue-900" spy={true} to="hero" smooth={true} duration={1000} >HOME</Link>
                     <Link className="hover:text-blue-900 cursor-pointer transition-all duration-300" activeClass="text-blue-900" spy={true} to="about" smooth={true} duration={1200} >ABOUT ME</Link>
-                    <Link className="hover:text-blue-900 cursor-pointer transition-all duration-300" activeClass="text-blue-900" spy={true} to="projects" smooth={true} duration={1400} >PROJECTS</Link>
                     <Link className="hover:text-blue-900 cursor-pointer transition-all duration-300" activeClass="text-blue-900" spy={true} to="tools" smooth={true} duration={1600} >TOOLS & TECHNOLOGIES</Link>
+                    <Link className="hover:text-blue-900 cursor-pointer transition-all duration-300" activeClass="text-blue-900" spy={true} to="projects" smooth={true} duration={1400} >PROJECTS</Link>
                     <Link className="hover:text-blue-900 cursor-pointer transition-all duration-300" activeClass="text-blue-900" spy={true} to="contact" smooth={true} duration={1800} >CONTACT ME</Link>
                 </div>
                 <div>
