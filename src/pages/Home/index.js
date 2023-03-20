@@ -51,8 +51,7 @@ function Home() {
                 <Navbar toggle={toggleTheme} mode={theme} />
                 <Hero />
                 <About />
-                <Projects />
-                <Tools />
+
                 <Contact />
                 <Footer mode={theme} />
             </div>
