@@ -9,16 +9,17 @@ export default function Contact() {
     <div id="contact">
       <div className="p-8 sm:p-16 pt-24 sm:pt-24 min-h-screen items-stretch flex flex-col sm:flex-row gap-8 sm:gap-4 dark:text-white">
         <div className="w-7/12">
-          <div class="text-6xl font-semibold font-mono
+          <div class="text-5xl md:text-6xl font-semibold font-mono
                                 bg-gradient-to-r bg-clip-text  text-transparent 
                                 from-indigo-500 via-blue-500 to-purple-500
                                 animate-text 
                                 ">
             <div className="textset">
               <span className="left">Want To</span><br />
-              <span className="">Contact Me?</span><br />
+              <span className="">Contact</span><br />
+              <span className="">Me?</span><br />
               <span className="right"></span><br />
-              <span className="left">I am </span><br />
+              <span className="left">I am</span><br />
               <span className="left">Only</span><br />
               <span className="right">One Click</span><br />
               <span className="right">Away :)</span><br />
@@ -47,7 +48,8 @@ export default function Contact() {
                 <a href="https://www.linkedin.com/in/randula98/" target="_blank"><FontAwesomeIcon icon={icons.faLinkedin} size="xl" className="transition-all duration-300 hover:text-blue-900" /></a>
                 <a href="https://github.com/randula98" target="_blank"><FontAwesomeIcon icon={icons.faGithub} size="xl" className="transition-all duration-300 hover:text-blue-900" /></a>
                 <a href="https://mobile.twitter.com/RMawaththa" target="_blank"><FontAwesomeIcon icon={icons.faTwitter} size="xl" className="transition-all duration-300 hover:text-blue-900" /></a>
-                <a href="https://www.hackerrank.com/randula98" target="_blank"><FontAwesomeIcon icon={icons.faHackerrank} size="xl" className="transition-all duration-300 hover:text-blue-900" /></a>
+                <a href="https://open.spotify.com/user/xi99movwykar6xkkogsq39q2x" target="_blank"><FontAwesomeIcon icon={icons.faSpotify} size="xl" className="transition-all duration-300 hover:text-blue-900" /></a>
+                
               </div>
             </div>
           </div>

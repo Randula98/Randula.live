@@ -8,27 +8,29 @@ const image = "https://firebasestorage.googleapis.com/v0/b/portfolio-b2983.appsp
 export default function About() {
     return (
         <div id="about">
-            <div className="p-8 min-h-screen text-center border-b border-b-black/10 dark:border-b-white/10 pt-24 sm:p-16 sm:pt-24 flex flex-col justify-between grid grid-cols-2 gap-10">
-                <div className="w">
-                    <div className="flex flex-wrap justify-center mt-10">
-                        <img src={image} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none h-7/12 w-7/12" />
+
+            <div className="p-8 sm:p-16 pt-24 sm:pt-24 min-h-screen items-stretch flex flex-col sm:flex-row gap-8 sm:gap-4 dark:text-white">
+                <div className="w-full">
+                    <div className="w">
+                        <div className="flex flex-wrap justify-center mt-10">
+                            <img src={image} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none h-7/12 w-7/12" />
+                        </div>
                     </div>
                 </div>
-
-                <div className="w">
-                    <div className="mt-10">
-                        <h4 className="text-2xl font-semibold">About Me!</h4>
-                        <div className="mt-10">
-                            <p class="tracking-widest text-gray-500 md:text-lg dark:text-gray-400 font-semibold">
-                                {about}
-                            </p>
+                <div className="flex flex-col self-start sm:self-center pb-24 sm:pb-0 gap-1 w-4/5">
+                        <div className="w-full">
+                                <h4 className="text-2xl font-semibold">About Me!</h4>
+                                <div className="mt-10">
+                                    <p class="tracking-widest text-gray-500 md:text-lg dark:text-gray-400 font-semibold">
+                                        {about}
+                                    </p>
+                                </div>
+                                <div className="mt-10">
+                                    <a href={link} target="_blank" type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2" rel="noreferrer">
+                                        Download My CV
+                                    </a>
+                                </div>
                         </div>
-                        <div className="mt-10">
-                            <a href={link} target="_blank" type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2" rel="noreferrer">
-                                Download My CV
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
