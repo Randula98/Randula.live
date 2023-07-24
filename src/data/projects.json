@@ -13,7 +13,7 @@
         "id": 2,
         "name": "Payrow - Online Job Portal",
         "lang": [
-            "HTML |",
+            "HTML | ",
             "CSS | ",
             "JavaScript | ",
             "PHP |",
@@ -26,7 +26,7 @@
         "id": 3,
         "name": "ezCare - Online Vehicle & Fuel Management System",
         "lang": [
-            "HTML |",
+            "HTML | ",
             "CSS | ",
             "JavaScript | ",
             "JSP | ",
@@ -53,6 +53,16 @@
         "lang": [
             "Java | ",
             "Firebase"
+        ],
+        "links": "https://github.com/Randula98/Y2S2-Foodi-MAD-Project.git",
+        "imgurl": ""
+    },
+    {
+        "id": 6,
+        "name": "Randula.live - Self Portfolio",
+        "lang": [
+            "React.js | ",
+            "Tailwind"
         ],
         "links": "https://github.com/Randula98/Y2S2-Foodi-MAD-Project.git",
         "imgurl": ""

@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Contact() {
   return (
     <div id="contact">
-      <div className="p-8 sm:p-16 pt-24 sm:pt-24 min-h-screen items-stretch flex flex-col sm:flex-row gap-8 sm:gap-4 dark:text-white">
+      <div className="p-8 sm:p-16 pt-24 sm:pt-24 items-stretch flex flex-col sm:flex-row gap-8 sm:gap-4 dark:text-white">
         <div className="w-7/12">
           <div class="text-5xl md:text-6xl font-semibold font-mono
                                 bg-gradient-to-r bg-clip-text  text-transparent 
@@ -26,8 +26,8 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col self-start sm:self-center pb-24 sm:pb-0 gap-10">
-          <div className="flex flex-col self-start sm:self-center pb-24 sm:pb-0 gap-10">
+        <div className="flex flex-col self-start sm:self-center pb-24 sm:pb-0 gap-7">
+          <div className="flex flex-col self-start sm:self-center pb-24 sm:pb-0 gap-7">
             <div className="flex flex-col gap-3">
               <h4 className="text-2xl font-semibold">Say Hello!</h4>
 
@@ -49,7 +49,8 @@ export default function Contact() {
                 <a href="https://github.com/randula98" target="_blank"><FontAwesomeIcon icon={icons.faGithub} size="xl" className="transition-all duration-300 hover:text-blue-900" /></a>
                 <a href="https://mobile.twitter.com/RMawaththa" target="_blank"><FontAwesomeIcon icon={icons.faTwitter} size="xl" className="transition-all duration-300 hover:text-blue-900" /></a>
                 <a href="https://open.spotify.com/user/xi99movwykar6xkkogsq39q2x" target="_blank"><FontAwesomeIcon icon={icons.faSpotify} size="xl" className="transition-all duration-300 hover:text-blue-900" /></a>
-                
+                <a href="" target="_blank"><FontAwesomeIcon icon={icons.faHackerrank} size="xl" className="transition-all duration-300 hover:text-blue-900" /></a>
+                <a href="" target="_blank"><FontAwesomeIcon icon={icons.faYoutube} size="xl" className="transition-all duration-300 hover:text-blue-900" /></a>
               </div>
             </div>
           </div>
