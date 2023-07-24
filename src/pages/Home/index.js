@@ -9,8 +9,6 @@ import {
     Projects
 } from "../../modules";
 
-
-
 import "./home.css";
 
 export const ThemeContext = createContext(null);
@@ -51,8 +49,8 @@ function Home() {
                 <Navbar toggle={toggleTheme} mode={theme} />
                 <Hero />
                 <About />
-                <Projects />
                 <Tools />
+                <Projects />
                 <Contact />
                 <Footer mode={theme} />
             </div>

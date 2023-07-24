@@ -13,7 +13,7 @@ export default function Hero() {
                 </div>
                 <br />
                 <div className="flex flex-col gap-4 sm:gap-2">
-                    <div class="text-9xl font-semibold font-mono
+                    <div class="text-5xl md:text-9xl font-semibold font-mono
                                 bg-gradient-to-r bg-clip-text  text-transparent 
                                 from-indigo-500 via-blue-500 to-purple-500
                                 animate-text
@@ -26,16 +26,8 @@ export default function Hero() {
                             <span className="right">Developer</span><br />
                         </div>
                     </div>
-
-                    <span className="text-lg sm:text-2xl leading-5 sm:ml-1 mt-5 animate-pulse">
-                        Click Here To Get My <a href="" target="_blank" className="font-semibold 
-                                bg-gradient-to-r bg-clip-text  text-transparent 
-                                from-indigo-500 via-blue-500 to-purple-500
-                                animate-text">resume.</a>
-                    </span>
                 </div>
             </div>
-
         </div>
     )
 }

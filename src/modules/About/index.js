@@ -1,19 +1,39 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
+const about = "I am an aspiring Undergraduate Student in the IT industry, Self-Motivated and Encouraged.  My strong attributes are problem-solving, working with dignity and honesty, being highly organized, and being capable of effectively working independently and under pressure. Through a lot of effort, research, talent, and tenacity, I hope to thrive in my area."
+const link = "https://drive.google.com/file/d/1fo8Fz4j82aK3G1l989Rs_1iT7eL0mg8Y/view?usp=sharing"
+const image = "https://firebasestorage.googleapis.com/v0/b/portfolio-b2983.appspot.com/o/profilepic%2FIMG_9801.png?alt=media&token=616d677a-66f3-4572-8736-4c769917b2f7";
+
 export default function About() {
+    
     return (
         <div id="about">
 
-            <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">About</h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            </a>
-            <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">About</h5>
-                <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            </a>
-
+            <div className="p-8 sm:p-16 pt-24 sm:pt-24 min-h-screen items-stretch flex flex-col sm:flex-row gap-8 sm:gap-4 dark:text-white">
+                <div className="w-full">
+                    <div className="w">
+                        <div className="flex flex-wrap justify-center mt-10">
+                            <img src={image} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none h-7/12 w-7/12" />
+                        </div>
+                    </div>
+                </div>
+                <div className="flex flex-col self-start sm:self-center pb-24 sm:pb-0 gap-1 w-4/5">
+                    <div className="w-full">
+                        <h4 className="text-2xl font-semibold">About Me!</h4>
+                        <div className="mt-10">
+                            <p class="tracking-widest text-gray-500 md:text-lg dark:text-gray-400 font-semibold">
+                                {about}
+                            </p>
+                        </div>
+                        <div className="mt-10">
+                            <a href={link} target="_blank" type="button" className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2" rel="noreferrer">
+                                Download My CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
