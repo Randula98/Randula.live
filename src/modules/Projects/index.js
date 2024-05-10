@@ -50,8 +50,8 @@ export default function Projects({ mode }) {
               ProjectsList.map((project, index) => {
                 return (
                   <SwiperSlide key={index}>
-                    <div class={`max-w-md border rounded-lg shadow${mode === 'dark'
-                      ? 'bg-gray-800 hover:bg-gray-800 border-gray-700'
+                    <div class={`max-w-md border border-2 rounded-lg shadow${mode === 'dark'
+                      ? 'bg-gray-100 hover:bg-gray-800 border-gray-700'
                       : 'bg-white hover:bg-gray-100 border-gray-300'
                       }`}>
                       <div class="p-5">
@@ -73,9 +73,7 @@ export default function Projects({ mode }) {
                                 )
                               })
                             }
-
                           </div>
-
                           <div>
                             <a href={project.links} target="_blank"><FontAwesomeIcon icon={icons.faGithub} size="xl" className="transition-all duration-300 hover:text-blue-900" /></a>
                           </div>
@@ -84,10 +82,7 @@ export default function Projects({ mode }) {
                     </div>
                   </SwiperSlide>
                 )
-              }
-              )
-            }
-
+              })}
           </Swiper>
         </div>
       </div>
