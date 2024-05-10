@@ -18,7 +18,6 @@ import ProjectsList from '../../data/projects.json'
 
 export default function Projects() {
 
-  console.log(ProjectsList, 'asd')
   return (
     <div id="projects">
       <div className="p-8 min-h-screen text-center border-b border-b-black/10 dark:border-b-white/10 pt-24 sm:p-16 sm:pt-24 flex flex-col gap-8 justify-between">
@@ -90,15 +89,3 @@ export default function Projects() {
     </div>
   )
 }
-/*
-
-<div className="flex flex-col gap-4 sm:gap-2">
-                      <div class="text-1xl md:text-2xl font-semibold font-mono">
-                        <div className="textset">
-                          <img src="https://unsplash.it/600/400?image=501" />
-                          <span className="left">{project.name}</span><br />
-                          
-                        </div>
-                      </div>
-                    </div>
-                    */
