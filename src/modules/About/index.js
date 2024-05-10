@@ -2,15 +2,14 @@
 import React from 'react'
 
 const about = "I am an aspiring Undergraduate Student in the IT industry, Self-Motivated and Encouraged.  My strong attributes are problem-solving, working with dignity and honesty, being highly organized, and being capable of effectively working independently and under pressure. Through a lot of effort, research, talent, and tenacity, I hope to thrive in my area."
-const link = "https://drive.google.com/file/d/1fo8Fz4j82aK3G1l989Rs_1iT7eL0mg8Y/view?usp=sharing"
-const image = "https://firebasestorage.googleapis.com/v0/b/portfolio-b2983.appspot.com/o/profilepic%2FIMG_9801.png?alt=media&token=616d677a-66f3-4572-8736-4c769917b2f7";
+const link = "https://drive.google.com/file/d/1NSfPby2AvWSjSRj2VOANmXfqDtvpiQuU/view?usp=drive_link"
+const image = "https://firebasestorage.googleapis.com/v0/b/randulalive-a5419.appspot.com/o/myimage%2FRandulaM.png?alt=media&token=87b0a78a-ec85-4d2c-9ce2-993bec975249";
 
 export default function About() {
     
     return (
         <div id="about">
-
-            <div className="p-8 sm:p-16 pt-24 sm:pt-24 min-h-screen items-stretch flex flex-col sm:flex-row gap-8 sm:gap-4 dark:text-white">
+            <div className="p-8 sm:p-16 items-stretch flex flex-col sm:flex-row dark:text-white">
                 <div className="w-full">
                     <div className="w">
                         <div className="flex flex-wrap justify-center mt-10">

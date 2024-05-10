@@ -21,8 +21,8 @@ export default function Contact({ mode }) {
             </div>
           </div>
         </div>
-        <div className="flex flex-col self-start sm:self-center pb-24 sm:pb-0 gap-7">
-          <div className="flex flex-col self-start sm:self-center pb-24 sm:pb-0 gap-7">
+        <div className="flex flex-col self-start sm:self-center  sm:pb-0 gap-7">
+          <div className="flex flex-col self-start sm:self-center  sm:pb-0 gap-7">
             <div className="flex flex-col gap-3">
               <h4 className={`text-2xl font-semibold ${mode === 'dark'
                   ? 'text-white'
@@ -66,10 +66,6 @@ export default function Contact({ mode }) {
                   : 'text-black hover:text-blue-500 '
                 }`}  /></a>
                 <a href="https://mobile.twitter.com/RMawaththa" target="_blank"><FontAwesomeIcon icon={icons.faTwitter} size="xl" className={`transition-all duration-300 hover:text-blue-900 ${mode === 'dark'
-                  ? 'text-white hover:text-blue-900 '
-                  : 'text-black hover:text-blue-500 '
-                }`}  /></a>
-                <a href="https://open.spotify.com/user/xi99movwykar6xkkogsq39q2x" target="_blank"><FontAwesomeIcon icon={icons.faSpotify} size="xl" className={`transition-all duration-300 hover:text-blue-900 ${mode === 'dark'
                   ? 'text-white hover:text-blue-900 '
                   : 'text-black hover:text-blue-500 '
                 }`}  /></a>

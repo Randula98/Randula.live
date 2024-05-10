@@ -5,7 +5,7 @@ import "./Hero.css"
 export default function Hero() {
     return (
         <div id="hero">
-            <div className="p-8 min-h-screen text-center border-b border-b-black/10 dark:border-b-white/10 pt-24 sm:p-16 sm:pt-24 flex flex-col gap-8 justify-between">
+            <div className="p-8 text-center border-b border-b-black/10 dark:border-b-white/10 pt-24 sm:p-16 sm:pt-24 flex flex-col gap-8 justify-between">
                 <div>
                     <h2 className="text-3xl font-semibold uppercase sm:text-6xl ">
                         Hello there! I'm Randula Mawaththa

@@ -16,17 +16,17 @@ import 'swiper/css/scrollbar'
 
 import ProjectsList from '../../data/projects.json'
 
-export default function Projects() {
+export default function Projects({ mode }) {
 
   return (
     <div id="projects">
-      <div className="p-8 min-h-screen text-center border-b border-b-black/10 dark:border-b-white/10 pt-24 sm:p-16 sm:pt-24 flex flex-col gap-8 justify-between">
+      <div className="p-8 text-center border-b border-b-black/10 dark:border-b-white/10 pt-24 sm:p-16 sm:pt-24 flex flex-col gap-8 justify-between">
         <div>
-          <h2 className="text-3xl font-semibold uppercase sm:text-6xl ">
+          <h2 className="text-3xl font-semibold uppercase sm:text-6xl p-8">
             Projects By Me
           </h2>
         </div>
-        <div className='w-'>
+        <div className='w-full pb-2'>
           <Swiper
             // install Swiper modules
             modules={[Pagination, Scrollbar]}
@@ -50,21 +50,26 @@ export default function Projects() {
               ProjectsList.map((project, index) => {
                 return (
                   <SwiperSlide key={index}>
-
-                    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                      <a href="#">
-                        <img class="rounded-t-lg" src="https://unsplash.it/600/400?image=501" alt="" />
-                      </a>
+                    <div class={`max-w-md border rounded-lg shadow${mode === 'dark'
+                      ? 'bg-gray-800 hover:bg-gray-800 border-gray-700'
+                      : 'bg-white hover:bg-gray-100 border-gray-300'
+                      }`}>
                       <div class="p-5">
                         <div class="grid grid-cols-1 gap-4">
                           <div className='h-16'>
-                            <h5 class="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">{project.name}</h5>
+                            <h5 class={`mb-2 text-1xl font-bold tracking-tight ${mode === 'dark'
+                              ? 'text-white hover:text-blue-900 '
+                              : 'text-black hover:text-blue-500 '
+                              }`}>{project.name}</h5>
                           </div>
                           <div>
                             {
                               project.lang.map((lang, index) => {
                                 return (
-                                  <span key={index} className="text-xs font-medium tracking-wide text-gray-500 uppercase dark:text-gray-300">{lang}</span>
+                                  <span key={index} className={`text-xs font-medium tracking-wide uppercase ${mode === 'dark'
+                                    ? 'text-white hover:text-blue-900 '
+                                    : 'text-black hover:text-blue-500 '
+                                    }`}>{lang}</span>
                                 )
                               })
                             }

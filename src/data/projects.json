@@ -59,6 +59,53 @@
     },
     {
         "id": 6,
+        "name": "Beheth Kade - Online Herbal Medicine Selling Platform Web Application",
+        "lang": [
+            "MERN | ",
+            "Docker | ",
+            "Kuberneties"
+        ],
+        "links": "https://github.com/Team-Tetra-Weeknd-People/Herbal-Medicine-Selling-Platform",
+        "imgurl": ""
+    },
+    {
+        "id": 7,
+        "name": "Price Q Web Application for Sales Optimization in Fashion Retail Web Application",
+        "lang": [
+            "React.js | ",
+            "Spring Boot | ",
+            "MongoDB | ",
+            "Python"
+        ],
+        "links": "https://github.com/Team-Tetra-Weeknd-People/SPM_Sales_Optimization_Application",
+        "imgurl": ""
+    },
+    {
+        "id": 8,
+        "name": "Material Inspection Mobile Application",
+        "lang": [
+            "React Native | ",
+            "Node.js | ",
+            "MongoDB | ",
+            "Firebase"
+        ],
+        "links": "https://github.com/Team-Tetra-Weeknd-People/UEE-Clothing-React-Native-App",
+        "imgurl": ""
+    },
+    {
+        "id": 9,
+        "name": "Procurement Helper Web Application",
+        "lang": [
+            "MERN | ",
+            "React Native | ",
+            "Bootstrap | ",
+            "Firebase"
+        ],
+        "links": "https://github.com/Team-Tetra-Weeknd-People/SPM_Sales_Optimization_Application",
+        "imgurl": ""
+    },
+    {
+        "id": 10,
         "name": "Randula.live - Self Portfolio",
         "lang": [
             "React.js | ",
