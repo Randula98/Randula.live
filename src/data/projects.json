@@ -106,6 +106,17 @@
     },
     {
         "id": 10,
+        "name": "AudiSense - Research Project on Gamified Auditory Verbal Theraphy",
+        "lang": [
+            "MERN | ",
+            "React Native | ",
+            "Machine Learning"
+        ],
+        "links": "https://audi-sense-portfolio.vercel.app/",
+        "imgurl": ""
+    },
+    {
+        "id": 11,
         "name": "Randula.live - Self Portfolio",
         "lang": [
             "React.js | ",

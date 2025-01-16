@@ -47,7 +47,7 @@ export default function Projects({ mode }) {
             }}
           >
             {
-              ProjectsList.map((project, index) => {
+              [...ProjectsList].reverse().map((project, index) => {
                 return (
                   <SwiperSlide key={index}>
                     <div class={`max-w-md border border-2 rounded-lg shadow${mode === 'dark'
