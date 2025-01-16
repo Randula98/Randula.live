@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
-const about = "I am an aspiring Undergraduate Student in the IT industry, Self-Motivated and Encouraged.  My strong attributes are problem-solving, working with dignity and honesty, being highly organized, and being capable of effectively working independently and under pressure. Through a lot of effort, research, talent, and tenacity, I hope to thrive in my area."
+const about = "I am an aspiring candidate in the IT industry, Self-Motivated and Encouraged.  My strong attributes are problem-solving, working with dignity and honesty, being highly organized, and being capable of effectively working independently and under pressure. Through a lot of effort, research, talent, and tenacity, I hope to thrive in my area."
 const link = "https://drive.google.com/file/d/1x4XWQu6shcJee4awd1Ap4hBA3bgBnuDc/view?usp=sharing"
 const image = "https://firebasestorage.googleapis.com/v0/b/randulalive-a5419.appspot.com/o/myimage%2FRandulaM.png?alt=media&token=87b0a78a-ec85-4d2c-9ce2-993bec975249";
 
 export default function About() {
-    
+
     return (
         <div id="about">
             <div className="p-8 sm:p-16 items-stretch flex flex-col sm:flex-row dark:text-white">

@@ -22,8 +22,7 @@ export default function Hero() {
                             <span className="left">Self-Innovated</span><br />
                             <span className="">&</span><br />
                             <span className="right">Motivated</span><br />
-                            <span className="left">Full-Stack</span><br />
-                            <span className="right">Developer</span><br />
+                            <span className="left">Software Engineer</span><br />
                         </div>
                     </div>
                 </div>
