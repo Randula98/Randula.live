@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
-const about = "I am an aspiring candidate in the IT industry, Self-Motivated and Encouraged.  My strong attributes are problem-solving, working with dignity and honesty, being highly organized, and being capable of effectively working independently and under pressure. Through a lot of effort, research, talent, and tenacity, I hope to thrive in my area."
-const link = "https://drive.google.com/file/d/1hT_PF0Qt7VUcwSQELxrV93FduqeYnTrz/view?usp=sharing"
-const image = "https://firebasestorage.googleapis.com/v0/b/randulalive-a5419.appspot.com/o/myimage%2FRandulaM.png?alt=media&token=87b0a78a-ec85-4d2c-9ce2-993bec975249";
+import dp from './dp.png'
 
+const about = "Software Engineer with nearly 3 years of experience designing and building scalable web applications, backend services, and cloud-based solutions. Experienced across the full software development lifecycle, with a strong foundation in problem-solving, system design, and delivering high-quality, maintainable code. Passionate about learning new technologies, adapting to evolving challenges, and selecting the right tools for each project rather than being confined to a specific technology stack. Committed to continuous improvement, collaboration, and building software that creates meaningful value."
+const link = "https://drive.google.com/file/d/1nYPwepStHnmx2a6MatIhEzjOg6ILbpPA/view?usp=sharing"
 export default function About() {
 
     return (
@@ -13,7 +13,7 @@ export default function About() {
                 <div className="w-full">
                     <div className="w">
                         <div className="flex flex-wrap justify-center mt-10">
-                            <img src={image} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none h-7/12 w-7/12" />
+                            <img src={dp} alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none h-7/12 w-7/12" />
                         </div>
                     </div>
                 </div>

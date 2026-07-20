@@ -6,7 +6,8 @@ import {
     About,
     Contact,
     Tools,
-    Projects
+    Projects,
+    Beyond
 } from "../../modules";
 
 import "./home.css";
@@ -32,6 +33,7 @@ function Home() {
                 <About />
                 <Tools mode={theme} />
                 <Projects mode={theme} />
+                <Beyond mode={theme} />
                 <Contact mode={theme} />
                 <Footer mode={theme} />
             </div>

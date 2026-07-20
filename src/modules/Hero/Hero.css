@@ -1,19 +1,23 @@
-.left{
-    animation: 2s slide-right;
-    animation-delay: 2s;
+.hero-name {
+  background: linear-gradient(90deg, #06b6d4, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
-.right{
-    animation: 2s slide-right;
-    animation-delay: 2s;
+.hero-title {
+  margin-top: 2rem;
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  font-weight: 700;
+  line-height: 1.05;
+  font-family: inherit;
 }
 
-@keyframes left {
-  from {
-    margin-left: -500px;
-  }
+.hero-line {
+  display: block;
 
-  to {
-    margin-left: 0%;
-  }
+  background: linear-gradient(90deg, #6366f1, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }

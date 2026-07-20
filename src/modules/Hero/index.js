@@ -1,32 +1,39 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
-import "./Hero.css"
+import React from "react";
+import "./Hero.css";
 
 export default function Hero() {
     return (
         <div id="hero">
-            <div className="p-8 text-center border-b border-b-black/10 dark:border-b-white/10 pt-24 sm:p-16 sm:pt-24 flex flex-col gap-8 justify-between">
+            <div className="px-8 py-24 sm:px-16 sm:py-28 text-center border-b border-black/10 dark:border-white/10 flex flex-col gap-8">
+
                 <div>
-                    <h2 className="text-3xl font-semibold uppercase sm:text-6xl ">
-                        Hello there! I'm Randula Mawaththa
+                    <p className="text-sm sm:text-base uppercase tracking-[0.3em] text-cyan-500 font-semibold">
+                        Software Engineer
+                    </p>
+
+                    <h2 className="mt-4 text-4xl sm:text-6xl font-bold">
+                        Hello, I'm{" "}
+                        <span className="hero-name">
+                            Randula Mawaththa
+                        </span>
                     </h2>
                 </div>
-                <br />
-                <div className="flex flex-col gap-4 sm:gap-2">
-                    <div class="text-5xl md:text-9xl font-semibold font-mono
-                                bg-gradient-to-r bg-clip-text  text-transparent 
-                                from-indigo-500 via-blue-500 to-purple-500
-                                animate-text
-                                ">
-                        <div className="textset">
-                            <span className="left">Self-Innovated</span><br />
-                            <span className="">&</span><br />
-                            <span className="right">Motivated</span><br />
-                            <span className="left">Software Engineer</span><br />
-                        </div>
+
+                <div className="flex flex-col gap-2">
+                    <div className="hero-title">
+                        <span className="hero-line left">Building</span>
+                        <span className="hero-line">Modern Software</span>
+                        <span className="hero-line right">& Cloud Solutions</span>
                     </div>
+
+                    <p className="mt-6 max-w-2xl mx-auto text-base sm:text-lg text-gray-600 dark:text-gray-400">
+                        Passionate about building scalable applications, solving complex
+                        problems, and continuously learning new technologies.
+                    </p>
                 </div>
+
             </div>
         </div>
-    )
+    );
 }
