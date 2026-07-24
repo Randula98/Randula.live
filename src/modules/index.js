@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import Tools from "./Tools";
 import Contact from "./Contact";
 import Beyond from "./Beyond";
+import UnderMaintenance from "./UnderMaintenance"
 
 export {
     Hero,
@@ -11,5 +12,6 @@ export {
     Contact,
     Tools,
     Projects,
-    Beyond
+    Beyond,
+    UnderMaintenance
 };
